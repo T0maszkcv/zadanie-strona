@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    
+    
+}
+body{
+    padding: 10px;
+}
+li{
+    color: grey;
+   
+    
+    
+
+}
+li:hover{
+    color: black;
+}
+
+hr{
+   
+    width: 100%;
+    height: 3px;
+    background-color: grey;
+    float: left;
+}
+.SKN{
+    margin-top: 10px;
+    color: black;
+    text-shadow: 3px 3px  purple ;
+    font-size: 60px;
+    margin-left: 50px;
+    text-decoration: none;
+}
+h1{
+   
+    padding: 30px;
+    color: grey;
+}
+h1:hover{
+    color: black;
+}
+
+video{
+    
+    width: 75%;
+    aspect-ratio: 16/9;
+   
+    
+}
+ul{
+    width: 25%;
+    
+}
+#ustawienia{
+    display: flex;
+    gap: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+    #ustawienia{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    ul{
+        width: 95%;
+        
+    }
+    video{
+        width:100%;
+        
+    }
+
+  }
